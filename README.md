@@ -1,16 +1,20 @@
-# React + Vite
+# Redux Toolkit Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Todo application built with **React** and **Redux Toolkit**.  
+This project demonstrates how to manage application state using Redux slices, actions, and reducers.  
 
-Currently, two official plugins are available:
+## Features
+- Add and remove todos
+- Unique IDs for todos using `nanoid`
+- State management powered by Redux Toolkit
+- Easy-to-extend structure for learning and real-world use
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- Redux Toolkit
+- JavaScript (ES6+)
 
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/redux-toolkit-todo-app.git
