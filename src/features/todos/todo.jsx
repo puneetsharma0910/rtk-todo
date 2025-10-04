@@ -4,7 +4,7 @@ const initialState = {
   todos: [
     {
          id: 1,
-    msg: "hi there"
+    text: "hi there"
     }
   ]
 };
@@ -16,7 +16,7 @@ const todoSlice = createSlice({
     addTodo: (state, action) => {
    const    todo = {
         id: nanoid(),
-        msg: action.payload.text,
+        text: action.payload,
       };
 
       state.todos.push(todo);
